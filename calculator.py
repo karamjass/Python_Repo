@@ -10,7 +10,7 @@ class Calculator :
     def subtract(self, n):
         j=0
         for i in range(n):
-            a=int(input("Enter how many numbers do you want to add :"))
+            a=int(input("Enter how many numbers do you want to subtract :"))
             for i in range(a):
                 g=int(input("Enter a number :"))
                 j -=g
@@ -18,7 +18,7 @@ class Calculator :
     def multiply(self, n):
         j=1
         for i in range(n):
-            a=int(input("Enter how many numbers do you want to add :"))
+            a=int(input("Enter how many numbers do you want to multiply :"))
             for i in range(a):
                 g=int(input("Enter a number :"))
                 j *=g
@@ -26,7 +26,7 @@ class Calculator :
     def divide(self, n):
         j=1
         for i in range(n):
-            a=int(input("Enter how many numbers do you want to add :"))
+            a=int(input("Enter how many numbers do you want to divide :"))
             for i in range(a):
                 g=int(input("Enter a number :"))
                 j /=g
@@ -54,4 +54,5 @@ while True:
         break
     else:
         print("Invalid Input")
+
 
