@@ -32,6 +32,7 @@ class Calculator :
                 j /=g
         return j
 while True: 
+    print("/t/t/t/t--Calculator--")
     calc = Calculator()
     print("Select operation:")
     print("1. Add")
@@ -51,8 +52,10 @@ while True:
         elif choice == '4':
             print("Result:", calc.divide(n))
     elif choice == '5':
+        print("--Thankyou for using this calculator...Have a Nice Day--")
         break
     else:
         print("Invalid Input")
+
 
 
